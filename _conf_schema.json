@@ -1,0 +1,29 @@
+{
+  "enable": {
+    "description": "启用插件",
+    "type": "bool",
+    "default": true,
+    "hint": "关闭后插件不生效（等同于未安装）。"
+  },
+  "quote_in_group": {
+    "description": "群聊中引用用户消息",
+    "type": "bool",
+    "default": true
+  },
+  "quote_in_private": {
+    "description": "私聊中引用用户消息",
+    "type": "bool",
+    "default": true
+  },
+  "respect_reply_with_quote": {
+    "description": "跟随主配置的「回复时引用发送人消息」",
+    "type": "bool",
+    "default": true,
+    "hint": "开启时：只有当 AstrBot 主配置 platform_settings.reply_with_quote 为真才引用。关闭时：只要本插件启用就强制引用。"
+  },
+  "debug": {
+    "description": "输出调试日志",
+    "type": "bool",
+    "default": false
+  }
+}

@@ -1,0 +1,10 @@
+name: astrbot_plugin_stream_quote
+display_name: 流式引用回复
+desc: 开启流式输出时，让机器人针对用户某条消息产生的第一条回复引用该用户消息，其余输出不引用。
+short_desc: 让流式输出也能引用回复
+version: v1.0.0
+author: lousha114514
+repo: https://github.com/lousha114514/astrbot_plugin_stream_quote
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.0"
